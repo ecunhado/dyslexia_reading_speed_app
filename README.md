@@ -32,3 +32,11 @@ flutter build apk
 ```
 
 For more information, including building iOS apps and publishing to the play/app store, please refer to [flutter's deployment documentation](https://docs.flutter.dev/deployment).
+
+## Debugging Flutter installation
+
+Run:
+
+```shell
+flutter doctor
+```
