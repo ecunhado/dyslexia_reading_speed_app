@@ -1,16 +1,34 @@
 # dyslexia_reading_speed_app
 
-A new Flutter project.
+App aimed to aid in calculating reading speed when performing dyslexia tests and evaluation.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+Install flutter following the instructions on [flutter's official website](https://docs.flutter.dev/get-started/install/linux/android).
 
-A few resources to get you started if this is your first Flutter project:
+## Running the app
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+In the root of this repository, run the app:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```shell
+flutter run
+```
+
+Choose whether you want to run the app on (1) a Linux application or (2) Chrome Webpage.
+Some useful tools while developing are the hot reload ('r'), hot restart ('R') and debug painting ('p').
+
+## Building the app
+
+First, accept android licenses (you might need to install sdk build tools and provide the path to the bin files in order to run sdkmanager):
+
+```shell
+sdkmanager --licenses
+```
+
+For building the .apk file, just run:
+
+```shell
+flutter build apk
+```
+
+For more information, including building iOS apps and publishing to the play/app store, please refer to [flutter's deployment documentation](https://docs.flutter.dev/deployment).
