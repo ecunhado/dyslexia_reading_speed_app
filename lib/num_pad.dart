@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:word_counter/digit.dart';
+import 'package:dyslexia_reading_speed_app/digit.dart';
 import 'package:flutter/cupertino.dart';
 
 typedef IntCallback = void Function(int val);
@@ -119,4 +119,3 @@ class NumPad extends StatelessWidget {
     );
   }
 }
-

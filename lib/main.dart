@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:word_counter/num_pad.dart';
+import 'package:dyslexia_reading_speed_app/num_pad.dart';
 import 'value_display.dart';
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
@@ -276,4 +276,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-

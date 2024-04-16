@@ -54,4 +54,3 @@ class Digit extends StatelessWidget {
     );
   }
 }
-
